@@ -1,0 +1,10 @@
+MANIFEST
+README
+LICENSE
+Todo
+Changes
+Makefile.PL
+lib/Xymon/Monitor/SNMP.pm
+scripts/liebert.pl
+t/001_load.t
+META.yml                                 Module meta-data (added by MakeMaker)
