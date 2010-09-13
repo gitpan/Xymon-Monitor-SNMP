@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Xymon-Monitor-SNMP
-version:            0.03
+version:            0.04
 abstract:           Xymon Interface to SNMP
 author:
     - David Peters (davidp@electronf.com)

@@ -7,8 +7,7 @@ use Config::General;
 
  my @hosts = ("maitups1");
 
-my $configfile = $0;
-$configfile =~ s/liebert.pl/liebert.conf/;
+my $configfile = $ARGV[0];
 
 foreach my $host( @hosts ) {	 
 	 
@@ -16,7 +15,7 @@ foreach my $host( @hosts ) {
 	 	hostname=>"$host",
 	 	version=>"2c",
 	 	community=>"public",
-	 	oidconfig=>"liebert.conf"
+	 	oidconfig=>"$configfile"
 	 	}
 	);
 	 
